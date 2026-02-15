@@ -41,5 +41,5 @@ models:
     example:
       +materialized: table
     cleaning:
-      +schema: cleaned
-      +materialized: table
+      +schema: cleaned # create schema "cleaned" for all models in cleaning folder
+      +materialized: table 
