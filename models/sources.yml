@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: rawdata_dbt
+    database: case_study
+    schema: rawdata
+    tables:
+      - name: charging_stations
+      - name: motor_vehicle_register
+      - name: area_name
+      - name: area_population
+      - name: area_territory
