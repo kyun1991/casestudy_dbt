@@ -10,3 +10,11 @@ sources:
       - name: area_name
       - name: area_population
       - name: area_territory
+
+  - name: cleaning_dbt
+    database: case_study
+    schema: dbt_sha_cleaned
+    tables:
+      - name: area_info
+      - name: clean_ev_vehicle
+      - name: parsed_charging_stations

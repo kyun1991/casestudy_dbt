@@ -43,3 +43,6 @@ models:
     cleaning:
       +schema: cleaned # create schema "cleaned" for all models in cleaning folder
       +materialized: table 
+    output:
+     +schema: output
+     +materialized: table

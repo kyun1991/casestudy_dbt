@@ -7,4 +7,4 @@ select
     variant_col:latitude ::float as latitude,
     variant_col:longitude ::float as longitude
 
-from {{ source("rawdata_dbt", "charging_stations")}}
+from {{ source("rawdata_dbt", "charging_stations") }}
