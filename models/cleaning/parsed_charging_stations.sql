@@ -1,6 +1,7 @@
 select
     --  Use : to access the JSON key, then :: to set the data type
-    variant_col:NAME ::varchar as major_name,
+    variant_col:ADDRESS ::varchar as address,
+    variant_col:NAME ::varchar as station_name,
     to_date(variant_col:dateFirstOperational ::varchar, 'DD/MM/YYYY') as date_first_operational,
     variant_col:numberOfConnectors ::number as number_of_connectors,
 

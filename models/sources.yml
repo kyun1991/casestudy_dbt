@@ -18,3 +18,9 @@ sources:
       - name: area_info
       - name: clean_ev_vehicle
       - name: parsed_charging_stations
+
+  - name: geo_dbt
+    database: GEOGRAPHY__BOUNDARIES__INSIGHTS__NEW_ZEALAND__FREE
+    schema: NZ_GEOGRAPHY_FREE
+    tables:
+      - name: SUBURB_AND_LOCALITIES
